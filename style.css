@@ -1,16 +1,19 @@
 *{
+    box-sizing: border-box;
+}
+body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 .container{
     display: flex;
-    margin: 0;
-    padding: 0;
 }
 header > h3{
     text-align: center;
     margin-top: 10px;
+}
+h3{
+    text-align: right;
 }
 .first{
     background-color: red;
@@ -33,30 +36,38 @@ header > h3{
     
 }
 @media (min-width: 768px) and (max-width: 991px) {
+    /* body{
+        margin: 0px;
+        padding: 0px;
+    } */
     .container{
-        position: relative;
-        width: 100%;
+        margin: 0px;
+        padding: 0px;
     }
     .first{
         background-color: red;
         margin: 10px;
-        width: 50%;   
+        width: 100%;   
     }
     .second{
         background-color: green;
         margin: 10px;   
-        width: 50%;   
+        width: 100%;   
     }
     .third{
         background-color: blue;
         margin: 10px;
         width: 100%;
         position: absolute;
-        top: 270px;
+        top: 295px;
         left: -5px;
     }  
 }
 @media (max-width: 767px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
     .container{
         margin: 0;
         padding: 0;
