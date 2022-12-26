@@ -44,16 +44,11 @@ h3{
 @media (min-width: 768px) and (max-width: 991px) {
   
     .container{
-<<<<<<< HEAD
         /* position: relative; */
         display: flex;
         border: 2px solid green;
         width: 100%;
         /* height: 450px; */
-=======
-        margin: 0px;
-        padding: 0px;
->>>>>>> 5fa48bc4f15fbfc48df4cc306e73a67693ce7dfe
     }
     .first{
         background-color: red;
@@ -63,24 +58,15 @@ h3{
     .second{
         background-color: green;
         margin: 10px;   
-<<<<<<< HEAD
         width: 100%;     
-=======
-        width: 100%;   
->>>>>>> 5fa48bc4f15fbfc48df4cc306e73a67693ce7dfe
     }
     .third{
         background-color: blue;
         /* margin: 10px; */
         position: absolute;
-<<<<<<< HEAD
         top: 270px;
         width: 100%;    
         left: 0px;
-=======
-        top: 295px;
-        left: -5px;
->>>>>>> 5fa48bc4f15fbfc48df4cc306e73a67693ce7dfe
     }  
 }
 @media (max-width: 767px) {
@@ -93,15 +79,15 @@ h3{
         flex-direction: column;
     }
     .first{
-        margin: 10px;
+        margin-bottom: 10px;
   
     }
     .second{
-        margin: 10px;
+        margin-bottom: 10px;
   
     }
     .third{
-        margin: 10px;
+        margin-bottom: 10px;
     }  
     
 }
