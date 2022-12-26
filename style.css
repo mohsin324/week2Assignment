@@ -39,7 +39,6 @@ h3{
   
     .container{
         display: flex;
-        border: 2px solid green;
         width: 100%;
     }
     .first{
