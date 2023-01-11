@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    margin: 0;
+    margin: 30px;
     padding: 0;
 
 }
@@ -21,14 +21,31 @@ h3{
 .first{
     background-color: red;
     width: 100%;
+    margin: 10px;
+    border: 2px solid black;
 }
 .second{
     background-color: green;
     width: 100%;
+    margin: 10px;
+    border: 2px solid black;
 }
 .third{
     background-color: blue;
     width: 100%;
+    margin: 10px;
+    border: 2px solid black;
+}
+span{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+span > h3{
+    border: 2px solid black;
+    width: 30%;
+    text-align: center;
+    background-color: lightgray;
 }
 @media (min-width: 992px) {
     .container{
@@ -55,9 +72,13 @@ h3{
         background-color: blue;
         position: absolute;
         top: 270px;
-        width: 100%;    
-        left: 0px;
+        width: 90%;    
+        left: 29px;
+        margin: 10px;
     }  
+    .third > span > h3{
+        width: 15%;
+    }
 }
 @media (max-width: 767px) {
     body{
